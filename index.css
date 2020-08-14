@@ -1,0 +1,116 @@
+.navLogo{
+    width: 125px;
+    border-radius: 50%;
+    
+}
+
+.navText{
+    display: flex;
+    font-weight: 200;
+    font-size: 30px;
+     justify-content: space-evenly; 
+    font-family: 'Luckiest Guy', cursive;
+}
+.footerText {
+    font-weight: 750;
+    font-size: 16px;
+    justify-content: center;
+    color: whitesmoke;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.Icons{
+    height: 30px;
+}
+
+
+
+.carouselTitle{
+    font-weight: bolder;
+    font-size: 40px;
+    text-shadow: 2px 2px 0px #000000;
+}
+
+.carouselBody{
+    font-weight: bolder;
+    font-size: 20px;
+    text-shadow: 2px 2px 0px #000000;
+}
+
+.homeTitle{
+    text-align: center;
+    color: #29a8a8;
+    padding-bottom: 40px; 
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.intro{
+    font-size: 30px;
+    color: #29a8a8;
+    /* font-weight: bolder; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+.mission{
+    font-size: 20px;
+    padding-top: 20px;
+     padding-bottom: 130px; 
+     font-family: 'Raleway', sans-serif;
+     color: #29a8a8;
+      font-weight: bolder;
+    
+}
+
+.carousel-control-prev-icon {
+    height: 50%;
+     top: 33%; 
+    width: 60px;
+    color: #29a8a8;
+}
+.carousel-control-next-icon {
+    height: 50%;
+     top: 33%; 
+    width: 60px;
+    color: #29a8a8;
+}
+.carousel-image{
+    width: 500px;
+    height: 500px;
+}
+
+/* begin css for About Page */
+
+.bio{
+    display: block;
+    border-radius: 50%;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* end css for About Page */
+
+/* begin css for Shop */
+
+
+
+/* end css for shop page */
+
+/* begin css for Contact Page */
+.textBox {
+    /* height: 400px; */
+    height: 200px;
+
+}
+
+        .contact{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+             margin-bottom: 100px; 
+        }
+
+        .byeBye{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+            }
