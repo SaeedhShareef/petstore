@@ -99,7 +99,7 @@ var shop =[
         title:"Dog bench",
         pet:"Dog",
         category:"etc",
-        image:"./images/petfurniture4.jpg",
+        image:"./images/doggieBench.jpg",
         price: 29.99,
         description:"Click below to take me home!",
     },
@@ -146,11 +146,11 @@ var shop =[
   ]
 var postHTML = " "
 for (var i=0; i < shop.length; i++){
-    var heading = '<div class="product"><span><h5>' + shop[i].title + '</h5>'
+    var heading = '<div class="product"><span><h5 class="priceCard">' + shop[i].title + '</h5>'
     var image = '<img src="' + shop[i].image + '"/'
-    var price = '<p> $' + shop[i].price + '</p></span>'
-    var description = '<div class="hoverProduct"><p>'+ shop[i].description + '</p><button type="button" class="btn btn-info"> add to cart</button></div></div>'
-    var concatThis = heading + image + price + description
+    var price = '<p class="priceCard"> $' + shop[i].price + '</p></span>'
+    var description = '<div class="priceCard"><p>'+ shop[i].description + '</p><button type="button" class="btn btn-info"> add to cart</button></div></div>'
+    var concatThis = heading + image + price + description 
     postHTML = postHTML + concatThis
 }
 document.getElementById('market').innerHTML = postHTML
