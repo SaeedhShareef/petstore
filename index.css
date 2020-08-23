@@ -58,7 +58,8 @@
      font-family: 'Raleway', sans-serif;
      color: #29a8a8;
       font-weight: bolder;
-    
+      margin-left: auto;
+    margin-right: auto;
 }
 
 .carousel-control-prev-icon {
@@ -96,30 +97,44 @@
 /* end css for shop page */
 
 /* begin css for Contact Page */
-/* .textBox {
-    /* height: 400px; */
-    /* height: 200px; */
 
-/* } */ 
 
         .contact{
              display: block;
-            margin-left: auto;
+            margin-left: 35%;
             margin-right: auto;
-             margin-bottom: 20px; 
-             align-content: center; 
+             margin-bottom: 10px; 
+             /* align-content: center;  */
         }
  
-        .byeBye{
+          .byeBye{
+      margin-top: 10px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 35%;
+    /* margin-right: auto; */
     margin-bottom: 20px;
-            } 
+    font-family: 'Raleway', sans-serif;
+     color: #29a8a8;
+      font-weight: bolder;
+      font-size: 20px;
+            }   
 
             .send{
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
                 margin-bottom: 10%;
+            }
+
+            .textArea{
+                /* margin-top: 10px; */
+                display: block;
+                margin-left: 35%;
+                margin-right: 65%;
+                /* margin-right: auto; */
+                margin-bottom: 20px;
+                font-family: 'Raleway', sans-serif;
+                 color: #29a8a8;
+                  font-weight: bolder;
+                  font-size: 20px;
             }
