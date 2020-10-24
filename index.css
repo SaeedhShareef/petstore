@@ -54,7 +54,7 @@
 .mission{
     font-size: 20px;
     padding-top: 20px;
-     padding-bottom: 130px; 
+     padding-bottom: 70px; 
      font-family: 'Raleway', sans-serif;
      color: #29a8a8;
       font-weight: bolder;
@@ -88,6 +88,16 @@
     margin-left: auto;
     margin-right: auto;
 }
+@media only screen and (max-width: 660px){
+    .bio{
+        display: block;
+        border-radius: 50%;
+        width: 240px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 /* end css for About Page */
 
 /* begin css for Shop */
@@ -106,6 +116,7 @@
              margin-bottom: 10px; 
              /* align-content: center;  */
         }
+       
  
           .byeBye{
       margin-top: 10px;
@@ -118,6 +129,38 @@
       font-weight: bolder;
       font-size: 20px;
             }   
+            @media only screen and (max-width: 360px){
+                .byeBye{
+                    display: block;
+                    width: 120px;
+                    height: 100px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: auto;
+                }
+                .mission{
+                    padding-bottom: none;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                .textArea{
+                    display: flex;
+                        margin: auto;
+                        margin-bottom: 10%;
+                }
+                
+            }
+            @media only screen and (max-width: 675px){
+                .byeBye{
+                    display: block;
+                    width: 350px;
+                    height: 300px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: auto;
+                }
+
+            }
 
             .send{
                 display: block;

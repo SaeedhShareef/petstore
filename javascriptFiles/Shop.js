@@ -39,15 +39,7 @@ var shop =[
         price: 175.00,
         description:"Click below to take me home!",
     },
-    {
-        title:"Frisk",
-        pet:"Cat",
-        category:"Pet",
-        image:"./images/kitten2.jpg",
-        price:199.99,
-        description:"Click below to take me home!",
-    },
-    {
+       {
         title:"Shu",
         pet:"Dog",
         category:"Pet",
@@ -103,14 +95,7 @@ var shop =[
         price: 29.99,
         description:"Click below to take me home!",
     },
-    {
-        title:"Doggie Pops",
-        pet:"Dog",
-        category:"etc",
-        image:"./images/treats1.png",
-        price:12.99,
-        description:"Click below to take me home!",
-    },
+   
     {
         title:"Gourmet Pig Ears",
         pet:"Dog",
@@ -143,13 +128,29 @@ var shop =[
         price: 14.50,
         description:"Click below to take me home!",
     },
+    {
+        title:"Doggie Pops",
+        pet:"Dog",
+        category:"etc",
+        image:"./images/treats1.png",
+        price:12.99,
+        description:"Click below to take me home!",
+    },
+     {
+        title:"Frisk",
+        pet:"Cat",
+        category:"Pet",
+        image:"./images/kitten2.jpg",
+        price:199.99,
+        description:"Click below to take me home!",
+    },
   ]
 var postHTML = " "
 for (var i=0; i < shop.length; i++){
     var heading = '<div class="product"><span><h5 class="priceCard">' + shop[i].title + '</h5>'
     var image = '<img src="' + shop[i].image + '"/'
     var price = '<p class="priceCard"> $' + shop[i].price + '</p></span>'
-    var description = '<div class="priceCard"><p>'+ shop[i].description + '</p><button type="button" class="btn btn-info"> add to cart</button></div></div>'
+    var description = '<div class="priceCard"><p>'+ shop[i].description + '</p><button type="button" class="btn btn-info"> Add to cart</button></div></div>'
     var concatThis = heading + image + price + description 
     postHTML = postHTML + concatThis
 }
