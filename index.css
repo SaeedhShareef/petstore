@@ -57,7 +57,7 @@
   font-weight: bolder;
   /* margin-left: auto;
     margin-right: auto; */
-  margin: auto;
+  /* margin: auto; */
 }
 
 .carousel-control-prev-icon {
@@ -104,21 +104,19 @@
 
 /* begin css for Contact Page */
 
-.contact {
+/* .contact {
   display: block;
   margin-left: 35%;
   margin-right: auto;
   margin-bottom: 10px;
   /* align-content: center;  */
-}
+/* } */
 
 .byeBye {
   /* margin-top: 10px; */
   display: block;
-  margin: auto !important;
-  /* margin-left: 35%; */
-  /* margin-right: auto; */
-  /* margin-bottom: 20px; */
+  margin-left: 30%;
+  margin-right: 30%;
   font-family: "Raleway", sans-serif;
   color: #29a8a8;
   font-weight: bolder;
@@ -134,35 +132,26 @@
     margin-top: auto;
   }
   .mission {
-    padding-bottom: none;
-    /* margin-left: auto;
-                    margin-right: auto; */
-    margin: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
   }
   .textArea {
-    /* display: flex; */
     margin: auto;
-    /* margin-bottom: 10%; */
   }
 }
 @media only screen and (max-width: 675px) {
   .byeBye {
     display: block;
     width: 350px;
-    height: 300px;
-    /* margin-left: auto;
-                    margin-right: auto;
-                    margin-top: auto; */
+    /* height: 300px; */
     margin: auto;
   }
 }
 
 .send {
   display: block;
-  /* margin-left: auto;
-                margin-right: auto;
-                margin-bottom: 10%; */
   margin: auto;
+  margin-top: 5px;
 }
 
 .textArea {
@@ -177,4 +166,6 @@
   color: #29a8a8;
   font-weight: bolder;
   font-size: 20px;
+  margin-bottom: 10px;
+
 }
