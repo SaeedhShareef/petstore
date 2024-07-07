@@ -149,9 +149,9 @@ var postHTML = " "
 for (var i=0; i < shop.length; i++){
     var heading = '<div class="product"><span><h5 class="priceCard">' + shop[i].title + '</h5>'
     var image = '<img src="' + shop[i].image + '"/'
-    var price = '<p class="priceCard"> $' + shop[i].price + '</p></span>'
-    var description = '<div class="priceCard"><p>'+ shop[i].description + '</p><button type="button" class="btn btn-info"> Add to cart</button></div></div>'
-    var concatThis = heading + image + price + description 
+    var price =  "<br>" + '<p class="priceCard"> $' + shop[i].price + '</p></span>'
+    var buy = '<div class="priceCard"><p>' + '</p><button type="button" class="btn btn-info"> Add to cart</button></div></div>'
+    var concatThis = heading + image + price + buy 
     postHTML = postHTML + concatThis
 }
 document.getElementById('market').innerHTML = postHTML
